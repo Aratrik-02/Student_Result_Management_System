@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to Student Result Management System </h1>
+<h1 align="center">Resultaholic </h1>
 <br>
 
 ## ❓ What is this project about?
