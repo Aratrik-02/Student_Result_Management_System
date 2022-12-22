@@ -1,7 +1,6 @@
 <h1 align="center">Resultaholic </h1>
-<br>
 
-## ❓ What is this project about?
+## Overview
 
 This project is focused on building an online portal of Student Result Management System directed to easier the management work of publishing results.
 
