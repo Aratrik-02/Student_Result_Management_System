@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+}
+.ul-horizontal {
+    list-style-type: none;
+    margin: 0;
+    margin-left: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+.li-horizontal{
+    float: left;
+}
+.brand{
+    font-size: 25px;
+    margin-left: 30px;
+}
+.li-horizontal a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    font-family: "Poppins" , sans-serif;
+}
+ .li-horizontal a:hover {
+    color: orange;
+    transition: 0.3s;
+} 
+.navbar{
+    position: fixed;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 15px;
+}
+.name-1{
+    display: none;
+}
+@media (max-width: 700px){
+    .call{
+        display: none;
+    }
+    .name{
+        display: none;
+    }
+    .name-1{
+        display: inline;
+    }
+}

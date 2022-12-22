@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  font-family: "Poppins" , sans-serif;
+  text-decoration: none;
+}
+.bgimg {
+	background: url("../img/study.jpg") no-repeat center;
+  height: 100vh;
+  background-size: cover;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+.input-box{
+    width: 300px;
+    height: 30px;
+    outline: none;
+    border-color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+.text-center{
+	text-align: center;
+}
+.heading{
+	font-size: 30px;
+}
+.float-container{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.float-child{
+  float: left;
+  padding: 20px;
+}
+.card-admin {
+	display: inline-block;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	background: rgba(114, 114, 114, 0.5);
+	transition: 0.3s;
+	text-align: center;
+	border-radius: 10px;
+  }
+  .card-admin:hover {
+	box-shadow: 0 8px 16px 0 rgba(245, 158, 7, 0.5);
+  }
+  .card-student {
+	display: inline-block;
+  width: 350px;
+  height: 326px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	background: rgba(114, 114, 114, 0.5);
+	transition: 0.3s;
+	text-align: center;
+	border-radius: 10px;
+  }
+  .card-student:hover {
+	box-shadow: 0 8px 16px 0 rgba(245, 158, 7, 0.5);
+  }
+  .container {
+	padding: 2px 16px;
+  }
+@media (max-width: 783px){
+  .input-box{
+    width:200px;
+  }
+  h2{
+    font-size: 1em;
+  }
+  h4{
+    font-size: 0.75em;
+  }
+  .card-student{
+    width: 230px;
+    height: 274px;
+  }
+}
+@media (max-width: 550px){
+  .input-box{
+    width:240px;
+  }
+  .float-container{
+    display: block;
+    padding-left: 20px;
+  }
+  .float-child{
+    padding-top: 20px;
+    margin-bottom: 20px;
+  }
+  h2{
+    font-size: 1.5em;
+  }
+  h4{
+    font-size: 1em;
+  }
+  .card-student{
+    width: 280px;
+    height: 100px;
+  }
+  footer{
+    display: none;
+  }
+}
+footer{
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+  .button-18 {
+	margin-top: 20px;
+    align-items: center;
+    background-color: #1abe17;
+    border: 0;
+    border-radius: 100px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 20px;
+    max-width: 480px;
+    min-height: 40px;
+    min-width: 100px;
+    overflow: hidden;
+    padding: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    touch-action: manipulation;
+    transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+  }
+  
+  .button-18:hover,
+  .button-18:focus { 
+    background-color: #369613;
+    color: #ffffff;
+  }
+  
+  .button-18:active {
+    background: #068409;
+    color: rgb(255, 255, 255, .7);
+  }
+  
+  .button-18:disabled { 
+    cursor: not-allowed;
+    background: rgba(0, 0, 0, .08);
+    color: rgba(0, 0, 0, .3);
+  }

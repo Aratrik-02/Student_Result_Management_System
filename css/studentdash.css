@@ -1,0 +1,133 @@
+
+body{
+    background-color: #fcd474;
+    background: url("../img/exam.jpg") no-repeat fixed center;
+}
+.box{
+    object-position: center;
+    opacity: 0.6;
+    background-color: white;
+    border-radius: 10px;
+    height: 500px;
+    width: 400px;
+}
+.info{
+    margin-left: -50px;
+}
+footer{
+  position: fixed;
+  width: 100%;
+  bottom: 20px;
+  color: white;
+}
+.res{
+    font-size:20px;
+    padding-left:30px;
+}
+@media print {
+    .bgimg {background-image: none;}
+    #non-printable { display: none;}
+    #printable { display: block; opacity: 1;}
+}
+.button-18 {
+    align-items: center;
+    background-color: #fc9d04;
+    border: 0;
+    border-radius: 100px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 20px;
+    max-width: 480px;
+    min-height: 40px;
+    min-width: 0px;
+    overflow: hidden;
+    padding: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    touch-action: manipulation;
+    transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+  }
+  
+  .button-18:hover,
+  .button-18:focus { 
+    background-color: #e4830d;
+    color: #ffffff;
+  }
+  
+  .button-18:active {
+    background: #da710e;
+    color: rgb(255, 255, 255, .7);
+  }
+  
+  .button-18:disabled { 
+    cursor: not-allowed;
+    background: rgba(0, 0, 0, .08);
+    color: rgba(0, 0, 0, .3);
+  }
+.search{
+    background-color: green;
+    width: 120px;
+    margin-left:100px; 
+    margin-top:20px
+}
+.reset{
+    background-color: red;
+    width: 120px;
+    margin-left:20px; 
+    margin-top:20px
+}
+.print{
+    background-color: blue;
+    margin-bottom: 40px;
+    width: 120px;
+}
+.input-box{
+    width: 300px;
+    height: 30px;
+    outline: none;
+    border-color: white;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.sub{
+    width:200px;
+}
+.marks{
+    font-size:25px; padding-left:130px;
+}
+@media (max-width: 760px){
+    .input-box{
+        width:200px;
+    }
+    td{
+        margin-left: 0;
+        max-width:100px;
+    }
+    .search{
+        margin-left: 100px;
+    }
+}
+@media (max-width:430px){
+    .input-box{
+        width: 150px;
+    }
+    .search{
+        margin-left: 10px;
+    }
+    td{
+        width: 50%;
+    }
+    .box{
+        width:200px;
+    }
+}
